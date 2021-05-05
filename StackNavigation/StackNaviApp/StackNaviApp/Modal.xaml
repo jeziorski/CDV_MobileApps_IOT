@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="StackNaviApp.Modal">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="Cornsilk">
+            <Label Text="Welcome to modal!"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Button x:Name="btnGoBack" Text="Go to mainpage"/>
+           
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
