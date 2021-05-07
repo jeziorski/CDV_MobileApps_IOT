@@ -1,0 +1,14 @@
+C:\Users\Daniel Jeziorski\source\repos\mobile 1\mobile App1\mobile App1\bin\Debug\netstandard2.0\mobile App1.deps.json
+C:\Users\Daniel Jeziorski\source\repos\mobile 1\mobile App1\mobile App1\bin\Debug\netstandard2.0\mobile App1.dll
+C:\Users\Daniel Jeziorski\source\repos\mobile 1\mobile App1\mobile App1\bin\Debug\netstandard2.0\ref\mobile App1.dll
+C:\Users\Daniel Jeziorski\source\repos\mobile 1\mobile App1\mobile App1\bin\Debug\netstandard2.0\mobile App1.pdb
+C:\Users\Daniel Jeziorski\source\repos\mobile 1\mobile App1\mobile App1\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Daniel Jeziorski\source\repos\mobile 1\mobile App1\mobile App1\obj\Debug\netstandard2.0\mobile App1.AssemblyInfoInputs.cache
+C:\Users\Daniel Jeziorski\source\repos\mobile 1\mobile App1\mobile App1\obj\Debug\netstandard2.0\mobile App1.AssemblyInfo.cs
+C:\Users\Daniel Jeziorski\source\repos\mobile 1\mobile App1\mobile App1\obj\Debug\netstandard2.0\mobile App1.csproj.CoreCompileInputs.cache
+C:\Users\Daniel Jeziorski\source\repos\mobile 1\mobile App1\mobile App1\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Daniel Jeziorski\source\repos\mobile 1\mobile App1\mobile App1\obj\Debug\netstandard2.0\mobile App1.dll
+C:\Users\Daniel Jeziorski\source\repos\mobile 1\mobile App1\mobile App1\obj\Debug\netstandard2.0\ref\mobile App1.dll
+C:\Users\Daniel Jeziorski\source\repos\mobile 1\mobile App1\mobile App1\obj\Debug\netstandard2.0\mobile App1.pdb
+C:\Users\Daniel Jeziorski\source\repos\mobile 1\mobile App1\mobile App1\obj\Debug\netstandard2.0\mobile App1.csprojAssemblyReference.cache
+C:\Users\Daniel Jeziorski\source\repos\mobile 1\mobile App1\mobile App1\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
