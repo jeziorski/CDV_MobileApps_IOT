@@ -352,3 +352,8 @@ D:\IOT_MOBILE_APPS\CDV_MobileApps_IOT\ChatApp\ChatApp.Web\obj\Debug\netcoreapp3.
 D:\IOT_MOBILE_APPS\CDV_MobileApps_IOT\ChatApp\ChatApp.Web\obj\Debug\netcoreapp3.1\ChatApp.Web.pdb
 D:\IOT_MOBILE_APPS\CDV_MobileApps_IOT\ChatApp\ChatApp.Web\obj\Debug\netcoreapp3.1\ChatApp.Web.genruntimeconfig.cache
 D:\IOT_MOBILE_APPS\CDV_MobileApps_IOT\ChatApp\ChatApp.Web\obj\Debug\netcoreapp3.1\Razor\Views\Home\Chat.cshtml.g.cs
+D:\IOT_MOBILE_APPS\CDV_MobileApps_IOT\ChatApp\ChatApp.Web\bin\Debug\netcoreapp3.1\libman.json
+D:\IOT_MOBILE_APPS\CDV_MobileApps_IOT\ChatApp\ChatApp.Web\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\IOT_MOBILE_APPS\CDV_MobileApps_IOT\ChatApp\ChatApp.Web\bin\Debug\netcoreapp3.1\System.Net.WebSockets.WebSocketProtocol.dll
+D:\IOT_MOBILE_APPS\CDV_MobileApps_IOT\ChatApp\ChatApp.Web\bin\Debug\netcoreapp3.1\ChatApp.DTO.dll
+D:\IOT_MOBILE_APPS\CDV_MobileApps_IOT\ChatApp\ChatApp.Web\bin\Debug\netcoreapp3.1\ChatApp.DTO.pdb

@@ -12,8 +12,9 @@ namespace ChatApp.Web.Hubs
     {
         public async Task SendMessage(UserChatMessage message)
         {
+            message.TimeStamp = System.DateTime.Now;
             await Clients.All.SendAsync(Consts.RECEIVE_MESSAGE, message);
-            //Signal R 30 minuta
+            
         }
     }
 }

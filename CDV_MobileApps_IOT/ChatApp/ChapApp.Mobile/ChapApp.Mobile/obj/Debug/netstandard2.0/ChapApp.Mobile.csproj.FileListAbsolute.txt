@@ -1,0 +1,15 @@
+D:\IOT_MOBILE_APPS\CDV_MobileApps_IOT\ChatApp\ChapApp.Mobile\ChapApp.Mobile\bin\Debug\netstandard2.0\ChapApp.Mobile.deps.json
+D:\IOT_MOBILE_APPS\CDV_MobileApps_IOT\ChatApp\ChapApp.Mobile\ChapApp.Mobile\bin\Debug\netstandard2.0\ChapApp.Mobile.dll
+D:\IOT_MOBILE_APPS\CDV_MobileApps_IOT\ChatApp\ChapApp.Mobile\ChapApp.Mobile\bin\Debug\netstandard2.0\ref\ChapApp.Mobile.dll
+D:\IOT_MOBILE_APPS\CDV_MobileApps_IOT\ChatApp\ChapApp.Mobile\ChapApp.Mobile\bin\Debug\netstandard2.0\ChapApp.Mobile.pdb
+D:\IOT_MOBILE_APPS\CDV_MobileApps_IOT\ChatApp\ChapApp.Mobile\ChapApp.Mobile\obj\Debug\netstandard2.0\ChapApp.Mobile.csprojAssemblyReference.cache
+D:\IOT_MOBILE_APPS\CDV_MobileApps_IOT\ChatApp\ChapApp.Mobile\ChapApp.Mobile\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\IOT_MOBILE_APPS\CDV_MobileApps_IOT\ChatApp\ChapApp.Mobile\ChapApp.Mobile\obj\Debug\netstandard2.0\ChatPage.xaml.g.cs
+D:\IOT_MOBILE_APPS\CDV_MobileApps_IOT\ChatApp\ChapApp.Mobile\ChapApp.Mobile\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\IOT_MOBILE_APPS\CDV_MobileApps_IOT\ChatApp\ChapApp.Mobile\ChapApp.Mobile\obj\Debug\netstandard2.0\ChapApp.Mobile.AssemblyInfoInputs.cache
+D:\IOT_MOBILE_APPS\CDV_MobileApps_IOT\ChatApp\ChapApp.Mobile\ChapApp.Mobile\obj\Debug\netstandard2.0\ChapApp.Mobile.AssemblyInfo.cs
+D:\IOT_MOBILE_APPS\CDV_MobileApps_IOT\ChatApp\ChapApp.Mobile\ChapApp.Mobile\obj\Debug\netstandard2.0\ChapApp.Mobile.csproj.CoreCompileInputs.cache
+D:\IOT_MOBILE_APPS\CDV_MobileApps_IOT\ChatApp\ChapApp.Mobile\ChapApp.Mobile\obj\Debug\netstandard2.0\XamlC.stamp
+D:\IOT_MOBILE_APPS\CDV_MobileApps_IOT\ChatApp\ChapApp.Mobile\ChapApp.Mobile\obj\Debug\netstandard2.0\ChapApp.Mobile.dll
+D:\IOT_MOBILE_APPS\CDV_MobileApps_IOT\ChatApp\ChapApp.Mobile\ChapApp.Mobile\obj\Debug\netstandard2.0\ref\ChapApp.Mobile.dll
+D:\IOT_MOBILE_APPS\CDV_MobileApps_IOT\ChatApp\ChapApp.Mobile\ChapApp.Mobile\obj\Debug\netstandard2.0\ChapApp.Mobile.pdb

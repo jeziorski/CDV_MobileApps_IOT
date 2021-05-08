@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ChapApp.Mobile.ChatPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Entry x:Name="entMessage" Placeholder="Enter message"></Entry>
+            <Button x:Name="btnSend" Text="Send message" BackgroundColor="#28a745"/>
+            <ListView x:Name="lvMessages"/>
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                        <StackLayout BackgroundColor="#eee" Orientation="Vertical">
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="{Binding TimeStampString}" FontSize="small"
+                                       TextColor="Orange"/>
+                                <Label Text="{Binding UserName}"
+                                       TextColor="Green" FontSize="Small"/>
+                                <Label Text="{Binding Message}" 
+                                       TextColor="Black"/>
+                            </StackLayout>
+                        </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,9 @@
+D:\IOT_MOBILE_APPS\CDV_MobileApps_IOT\ChatApp\ChatApp.DTO\bin\Debug\netstandard2.1\ChatApp.DTO.deps.json
+D:\IOT_MOBILE_APPS\CDV_MobileApps_IOT\ChatApp\ChatApp.DTO\bin\Debug\netstandard2.1\ChatApp.DTO.dll
+D:\IOT_MOBILE_APPS\CDV_MobileApps_IOT\ChatApp\ChatApp.DTO\bin\Debug\netstandard2.1\ChatApp.DTO.pdb
+D:\IOT_MOBILE_APPS\CDV_MobileApps_IOT\ChatApp\ChatApp.DTO\obj\Debug\netstandard2.1\ChatApp.DTO.csprojAssemblyReference.cache
+D:\IOT_MOBILE_APPS\CDV_MobileApps_IOT\ChatApp\ChatApp.DTO\obj\Debug\netstandard2.1\ChatApp.DTO.AssemblyInfoInputs.cache
+D:\IOT_MOBILE_APPS\CDV_MobileApps_IOT\ChatApp\ChatApp.DTO\obj\Debug\netstandard2.1\ChatApp.DTO.AssemblyInfo.cs
+D:\IOT_MOBILE_APPS\CDV_MobileApps_IOT\ChatApp\ChatApp.DTO\obj\Debug\netstandard2.1\ChatApp.DTO.csproj.CoreCompileInputs.cache
+D:\IOT_MOBILE_APPS\CDV_MobileApps_IOT\ChatApp\ChatApp.DTO\obj\Debug\netstandard2.1\ChatApp.DTO.dll
+D:\IOT_MOBILE_APPS\CDV_MobileApps_IOT\ChatApp\ChatApp.DTO\obj\Debug\netstandard2.1\ChatApp.DTO.pdb
