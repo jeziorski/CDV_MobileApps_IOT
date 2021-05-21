@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "Vj0CYH+ng81ptSxQYAe0KfvXDQBgqAnDRvtK6C0t9XL0ZiwOgD1GbtJBbWorv3UO6SmXMzBwJYPiLW7jp/8VKQ==",
+  "success": true,
+  "projectFilePath": "D:\\IOT_MOBILE_APPS\\Mobilelab5\\MobileLab5\\subscriber\\Subscriber.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Daniel Jeziorski\\.nuget\\packages\\rabbitmq.client\\6.2.1\\rabbitmq.client.6.2.1.nupkg.sha512",
+    "C:\\Users\\Daniel Jeziorski\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\Daniel Jeziorski\\.nuget\\packages\\system.threading.channels\\4.7.1\\system.threading.channels.4.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}
