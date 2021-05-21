@@ -7,24 +7,35 @@ namespace Subscriber
     {
         static void Main(string[] args)
         {
-            string host = "localhost";
-            string queue = QueueNames.HELLO_WORLD;
+            var host = "localhost";
+            var newMessage = false;
+            Console.WriteLine("Dzień dobry :)");
 
-            Console.WriteLine("Welcome in ClientOne application. To quit press any key.");
+            var rabbitMQManager = new RabbitMqManager(host);
 
-            var rabbitMqManager = new RabbitMqManager(host);
+            var connection = rabbitMQManager.Factory.CreateConnection();
+            var channel = connection.CreateModel();
 
-            using (var connection = rabbitMqManager.Factory.CreateConnection())
-            using (var channel = connection.CreateModel())
-            {
-                rabbitMqManager.SubscribeQueue(channel, queue, (message) =>
+            rabbitMQManager.SubscribeQueue(channel, QueueNames.HELLO_WORLD,
+                (message) =>
                 {
-                    Console.WriteLine($">>> Received message: '{message}' <<<");
+                    Console.WriteLine($">>> Otrzymana wiadomość: '{message}' <<<");
+                    newMessage = true;
                 });
 
-                Console.ReadKey();
-            }
 
+            while (true)
+            {
+                if (newMessage)
+                {
+                    Console.Write($"Podaj jak sie nazywasz: ");
+                    var userMessage = Console.ReadLine();
+                    if (userMessage == "q")
+                        return;
+                    rabbitMQManager.SendMessage(QueueNames.HELLO_DAN, userMessage);
+                    newMessage = false;
+                }
+            }
         }
     }
 }

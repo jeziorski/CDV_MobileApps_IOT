@@ -3,38 +3,38 @@ using Shared;
 
 namespace Broadcaster
 {
-    public class Program
+    class Program
     {
-        private static void Main(string[] args)
+        private static void Main()
         {
-            string hostName = "localhost";
-            var rabbitMqManager = new RabbitMqManager(hostName);
+            var hostName = "localhost";
+            var rabbitMQManager = new RabbitMqManager(hostName);
+            var newMessage = false;
+            var connection = rabbitMQManager.Factory.CreateConnection();
+            var channel = connection.CreateModel();
+            rabbitMQManager.SubscribeQueue(channel, QueueNames.HELLO_DAN,
+                (message) =>
+                {
+                    Console.WriteLine($">>> Wiadomość użytkownika: '{message}' <<<");
+                    newMessage = true;
+                });
             while (true)
             {
-                Console.WriteLine(">>> Enter a message which you want to send or type 'q' to exist app. <<<");
-                string userMessage = Console.ReadLine();
-
-                if (string.IsNullOrWhiteSpace(userMessage))
-                {
-                    Console.WriteLine("You have to type a message.");
-                    continue;
-                }
+                Console.WriteLine(">>> Wciśnij 'q' by wyjść lub inny przycisk by kontynuować <<<");
+                var userMessage = Console.ReadLine();
 
                 if (userMessage == "q")
                     return;
 
                 Console.WriteLine("[Start]");
-                try
+
+                rabbitMQManager.SendMessage(QueueNames.HELLO_WORLD, "Witaj użytkowniku, przestaw się");
+                while (!newMessage)
                 {
-                    rabbitMqManager.SendMessage(QueueNames.HELLO_WORLD, userMessage);
-                    Console.WriteLine("[Done]");
                 }
-                catch (Exception ex)
-                {
-                    Console.WriteLine($"[Something went wrong: {ex.Message}]");
-                    Console.ReadKey();
-                    return;
-                }
+
+                newMessage = false;
+                Console.WriteLine("[Done]");
             }
         }
     }
